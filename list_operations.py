@@ -174,6 +174,8 @@ def replace_third_and_last(input_list):
     for i in [2, -1]:
         input_list[i] = 37
 
+    # input_list[2], input_list[-1] = 37, 37
+
     return None
 
 
